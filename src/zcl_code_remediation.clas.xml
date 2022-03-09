@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Code Remediation Class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>000</KEY>
+     <ENTRY>Succesfully updated through remediation tool</ENTRY>
+     <LENGTH>88</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>&quot;Code Remediated by</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Program has been updated successfully.</ENTRY>
+     <LENGTH>76</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>On</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Program has been updated successfully For Status Table VBUK and VBUP.</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L01</KEY>
+     <ENTRY>*Begin of Modifications</ENTRY>
+     <LENGTH>46</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L02</KEY>
+     <ENTRY>*End of Modifications</ENTRY>
+     <LENGTH>42</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M01</KEY>
+     <ENTRY>Object Name : &amp;1</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M02</KEY>
+     <ENTRY>Remediate Object Name :&amp;1</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M03</KEY>
+     <ENTRY>Remediation:&amp;1</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M04</KEY>
+     <ENTRY>Old code , Start line : &amp;1 , End line :&amp;2</ENTRY>
+     <LENGTH>82</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M05</KEY>
+     <ENTRY>New Code , Start line : &amp;1 , End line :&amp;2</ENTRY>
+     <LENGTH>82</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>ADD_COMMENTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add Comments to Changed Line</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>CODE_SCAN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Scanning</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>CODE_WRAP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Wrap</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>DELETE_DUPLICATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Remediation for delete duplicate</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>FOR_ALL_ENTRIES_REMEDIATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Remedy For All Entries if Table is not checked</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Class instantiation method</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>GET_OBJ_DETAIL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get type and title</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>GO_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Remediation Class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>GT_LOG_MESSAGES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Strings</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>GT_REMEDIATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Remediation tool result set</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>GV_OBJECT_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object Name in Object Directory</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>GV_SEQ</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>4 Byte Signed Integer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>GV_TESTRUN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Boolean Variable (X = True, - = False, Space = Unknown)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>LOOP_AT_NEW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Loop Remediation for AT NEW</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>LOOP_REMEDIATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Loop Remediation Method</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>PROCESS_APPLICATION_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Process Application log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>PROCESS_PRETTY_PRINTER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Process the pritty Printer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>PROG_SYNTAX_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Program syntax check</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>READ_REMEDIATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read statement remediation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>READ_WRITE_ON_DB_REMEDIATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Insert, Update, Delete, Modify, Select renediation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>REPLACE_MATNR_DE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Replace static declaration for Matnr</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>REPLACE_VBUK_VBUP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Replace Status Tables with VBAK AND VBAP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>SELECT_SINGLE_REMEDIATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select single statement scan</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CODE_REMEDIATION</CLSNAME>
+     <CMPNAME>WRITE_TO_KONV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Insert, Update, Delete, Modify, on KONV</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
